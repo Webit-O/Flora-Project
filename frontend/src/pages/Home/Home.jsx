@@ -1,5 +1,10 @@
+import { Navbar } from '../../component/Navbar/Navbar'
 import './Home.css'
 
 export const Home = () => {
-  return <div>Home Page</div>
+  return (
+    <div className='container'>
+      <Navbar />
+    </div>
+  )
 }
